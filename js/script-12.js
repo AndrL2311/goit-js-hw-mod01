@@ -7,6 +7,4 @@ const message = `You ordered droids worth ${orderedQuantity*pricePerDroid+delive
     return message;
 }
 
-makeOrderMessage(2, 100, 50);
-
-  console.log(message); 
+  console.log(makeOrderMessage(2, 100, 50)); 
