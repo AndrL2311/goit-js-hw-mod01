@@ -17,7 +17,7 @@
 function formatMessage(message, maxLength) {
   let result;
   // Change code below this line
-    console.log(message.length);
+    // console.log(message.length);
     if (Number(message.length) > maxLength) {
       
 result = message.slice(0, maxLength) + "..."}
